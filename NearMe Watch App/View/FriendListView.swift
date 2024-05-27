@@ -15,6 +15,7 @@ struct FriendListView: View {
             } label: {
                 FriendRowView(friend: friend)
             }
+            .navigationTitle("All Friends")
         }
     }
 }
